@@ -11,7 +11,7 @@ import Shapes
 import bez
 
 // MARK: - Configuration
-@available(iOS 13.0, macOS 10.15, watchOS 6.0 , *)
+@available(iOS 16.0, macOS 10.15, watchOS 6.0 , *)
 public struct PSliderConfiguration {
     /// whether or not the slider is current disables
     public let isDisabled: Bool
@@ -156,7 +156,7 @@ public struct DefaultPSliderStyle: PSliderStyle {
 ///     }
 /// ```
 ///
-@available(iOS 13.0, macOS 10.15, watchOS 6.0 , *)
+@available(iOS 16.0, macOS 10.15, watchOS 6.0 , *)
 public struct PSlider<S: Shape>: View {
     enum DragState {
         case inactive
